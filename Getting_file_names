@@ -1,0 +1,3 @@
+$folderPath = "C:\Path\To\Your\Folder" 
+
+Get-ChildItem -Path $folderPath -Filter "*.sql" -File | Select-Object -ExpandProperty Name
